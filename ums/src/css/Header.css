@@ -1,0 +1,65 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 1.5rem;
+    margin-right: 30px;
+  }
+  
+  /* Contact styles */
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .icon {
+    color: #ff6600;
+    margin-right: 10px;
+    padding: 2%;
+    
+  }
+  
+  /* Apply button styles */
+  .apply-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .imglogo{
+    margin-left: 7%;
+    width: 50px;
+    height: 50px;
+    
+  }
+  .coll_name{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+margin-right: 55.7%;
+  }
+  .div_colof{
+    margin-left: 15%;
+  }
+  .div_art_sci{
+   margin-left: 6.5%;
+
+  }
+
+  

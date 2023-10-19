@@ -1,0 +1,73 @@
+/* CSS for the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0 10px; /* Adjust the padding as needed */
+  box-sizing: border-box;
+}
+
+.box {
+  margin-left: 15%;
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add margin to individual boxes */
+.box:nth-child(1) {
+  margin-right: 0px;
+}
+
+.box:nth-child(2) {
+  margin: 0 0px;
+}
+
+.box:nth-child(3) {
+  margin-left: 0px;
+}
+
+.imglogo {
+  width: 100px;
+  height: 100px;
+}
+
+
+.coll_name {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex; /* Add display: flex to align the content horizontally */
+  align-items: center; /* Align items vertically within box 1 */
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 0% 0;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+
+

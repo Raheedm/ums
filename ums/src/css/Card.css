@@ -1,0 +1,32 @@
+/* Home.css */
+.facility-card-content {
+  display: flex;
+  align-items: center;
+  margin: 20px; /* Adjust the spacing between facility cards */
+}
+
+.facility-card-image {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.right {
+  order: 1;
+}
+
+.left {
+  order: -1;
+}
+
+.facility-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.facility-info {
+  flex: 2;
+  padding: 10px; /* Adjust the padding as needed */
+  text-align: left;
+}
