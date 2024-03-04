@@ -1,0 +1,83 @@
+.super-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebe3e3;
+  padding: 10px 10px; 
+  height: 50px;
+}
+
+
+.logo-link {
+  text-decoration: none; /* Remove underlines for the logo link */
+}
+
+.logo img {
+  max-width: 350px; /* Set the maximum width for the logo image */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.icon {
+  width: 14px; /* Set the width of each icon */
+  height: 14px; /* Set the height of each icon */
+  fill: white; 
+  color: #ffffff;
+
+}
+.iconimg{
+  filter: brightness(0) invert(1);
+  
+}
+.Addmisson {  
+  background-color: #0f1128;
+}
+
+.Addmisson a {
+  text-decoration: none;
+  color: #FFF; /* Text color */
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #0f1128; /* Add a border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth color transition */
+}
+.info-col{
+  font-size: 10px;
+  display: inline-block;
+}
+.Addmisson a:hover {
+  background-color: #fe6102; /* Change background color on hover */
+  color: #FFF; /* Change text color on hover */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .Addmisson a {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Add more media queries for different screen sizes if needed */
+
+
+
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .super-nav {
+    flex-direction: column; /* Stack icons vertically on smaller screens */
+  }
+
+  .logo img {
+    max-width: 400px; 
+    max-height: auto;/* Reduce logo size for smaller screens */
+  }
+}
